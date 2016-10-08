@@ -42,7 +42,7 @@ include_directories(${LUA_INCLUDE_DIR})
 add_definitions("-Wall")
 
 
-find_package(ImageMagick COMPONENTS MagickWand MagickCore REQUIRED)
+find_package(ImageMagick 6.8 COMPONENTS MagickWand MagickCore REQUIRED)
 
 
 if(APPLE)
